@@ -44,7 +44,7 @@ class ExampleTestListener implements TestListener {
 }
 ```
 
-`ExampleTask` logs the data collected by`ExampleTestListener`:
+`ExampleTask` logs the data collected by `ExampleTestListener`:
 
 ```
 abstract class ExampleTask extends DefaultTask {

@@ -1,0 +1,19 @@
+plugins {
+    id 'java-gradle-plugin'
+}
+
+group = 'io.skippy'
+
+dependencies {
+    testImplementation gradleTestKit()
+}
+
+gradlePlugin {
+    plugins {
+        examplePlugin {
+            id = 'com.example.ExamplePlugin'
+            implementationClass = 'com.example.ExamplePlugin'
+        }
+    }
+    automatedPublishing = false
+}
